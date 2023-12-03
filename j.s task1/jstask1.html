@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lock</title>
+    <style>
+        img{
+            height: 50vh;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+  <img src="https://th.bing.com/th/id/R.6ea99f19b8791772502488d9e905f062?rik=CP2lhZD%2bhKwtcA&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fT%2fg%2fX%2fu%2fP%2fs%2flock-hi.png&ehk=pZ1uNo97R%2fMLKcIWi%2fHZnFzOP478daPD1FCbdt%2f6yA4%3d&risl=&pid=ImgRaw&r=0" alt="" id="img">
+  <button type="button" onclick="Unlock()" >Unlock</button>
+  <button type="button" onclick="Lock()"> Lock</button>
+  <button type="button" onclick="Hide()"> Hide</button>
+  <button type="button" onclick="Show()"> Show</button>
+
+
+
+
+
+
+
+
+
+  <script>
+    function Unlock(){
+        document.getElementById('img').src="https://th.bing.com/th/id/R.23378470737c07e6be063f24e0a65a6b?rik=%2fd8lVBHTbq3WRA&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fG%2fQ%2fs%2fM%2fb%2ff%2fopen-padlock-2-md.png&ehk=vBRFPH2nLwvpul0dqiKAiqOfwTcLKRx0CP%2fYkxn%2f%2baQ%3d&risl=&pid=ImgRaw&r=0"
+    }
+
+    function Lock(){
+        document.getElementById('img').src='https://th.bing.com/th/id/R.6ea99f19b8791772502488d9e905f062?rik=CP2lhZD%2bhKwtcA&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fT%2fg%2fX%2fu%2fP%2fs%2flock-hi.png&ehk=pZ1uNo97R%2fMLKcIWi%2fHZnFzOP478daPD1FCbdt%2f6yA4%3d&risl=&pid=ImgRaw&r=0'
+    }
+    function Hide(){
+        document.getElementById('img').style.display='none'
+    }
+
+    function Show(){
+        document.getElementById('img').style.display='block'
+    }
+
+  </script>
+</body>
+</html>
